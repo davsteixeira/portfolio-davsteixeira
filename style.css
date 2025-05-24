@@ -453,6 +453,8 @@ span{
 
 .project-item h2{
     font-size: 2.8rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .project-item p{
     font-size: 1.3rem;
@@ -583,6 +585,9 @@ span{
     }
     .services{
         padding-bottom: 7rem;
+    }
+    .service-box{
+        height: 500px;
     }
     .projects .wrapper{
         grid-template-columns: repeat(1, 1fr);
