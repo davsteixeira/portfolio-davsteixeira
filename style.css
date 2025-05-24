@@ -12,7 +12,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: #ffffff;
-    --main-color: #00ffee;
+    --main-color: #2ed5ff;
 }
 
 html {
@@ -444,6 +444,13 @@ span{
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
+
+.project-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .project-item h2{
     font-size: 2.8rem;
 }
